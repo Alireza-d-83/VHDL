@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/ip/xfft_0/sim/xfft_0.vhd" \
+"../../../../project_1.srcs/sources_1/new/uni_pro_type.vhd" \
+"../../../../project_1.srcs/sources_1/new/FFT_IP_core_handler.vhd" \
+"../../../../project_1.srcs/sources_1/new/main.vhd" \
+"../../../../project_1.srcs/sim_1/new/sim_main.vhd" \
+
+# Do not sort compile order
+nosort
