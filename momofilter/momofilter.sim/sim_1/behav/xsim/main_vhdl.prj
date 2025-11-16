@@ -1,6 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../momofilter.srcs/sources_1/new/main.vhd" \
-
-# Do not sort compile order
-nosort
